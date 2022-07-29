@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD6CE13C2892646D0046AAEB /* Flag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6CE13B2892646D0046AAEB /* Flag.swift */; };
 		BDDFAF1728916DFF0049D386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDFAF1628916DFF0049D386 /* AppDelegate.swift */; };
 		BDDFAF1928916DFF0049D386 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDFAF1828916DFF0049D386 /* SceneDelegate.swift */; };
 		BDDFAF1B28916DFF0049D386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDFAF1A28916DFF0049D386 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD6CE13B2892646D0046AAEB /* Flag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flag.swift; sourceTree = "<group>"; };
 		BDDFAF1328916DFF0049D386 /* Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDFAF1628916DFF0049D386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDDFAF1828916DFF0049D386 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				BDDFAF1628916DFF0049D386 /* AppDelegate.swift */,
 				BDDFAF1828916DFF0049D386 /* SceneDelegate.swift */,
+				BD6CE13B2892646D0046AAEB /* Flag.swift */,
 				BDDFAF1A28916DFF0049D386 /* ViewController.swift */,
 				BDDFAF1C28916DFF0049D386 /* Main.storyboard */,
 				BDDFAF1F28916E010049D386 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				BDDFAF1B28916DFF0049D386 /* ViewController.swift in Sources */,
 				BDDFAF1728916DFF0049D386 /* AppDelegate.swift in Sources */,
 				BDDFAF1928916DFF0049D386 /* SceneDelegate.swift in Sources */,
+				BD6CE13C2892646D0046AAEB /* Flag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

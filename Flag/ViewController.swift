@@ -8,12 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var flagMain: Flag { return self.view as! Flag}
+    
+    override func loadView() {
+        view = Flag(frame: UIScreen.main.bounds)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        flagMain.likeButton = {
+            self.likeAction()
+        }
     }
 
-
+    func likeAction() {
+        flagMain.actionButton()
+    }
 }
-
