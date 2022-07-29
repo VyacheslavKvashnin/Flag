@@ -8,7 +8,7 @@
 import UIKit
 
 class Flag: UIView {
-    
+    var count = 0
     var likeButton: (() -> Void)?
     
     var isChange = false
